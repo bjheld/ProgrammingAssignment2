@@ -20,8 +20,9 @@ m <- NULL
 }
 
 
-## This function actually creates the inverse of the Matrix (if it has not been created before) and makes a 
-## permanent copy so it does not have to be re-caculated each time
+## This function actually creates the inverse of the Matrix (if it has not been created before) and 
+## makes a permanent copy so it does not have to be re-caculated each time.
+## This returns the inverse matrix
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
