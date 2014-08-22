@@ -2,6 +2,7 @@
 ## functions do
 
 ## makeCacheMatrix sets up some functions that are subsequently called by the function cacheSolve
+## August 22, 2014 
 
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -22,7 +23,7 @@ m <- NULL
 
 ## This function actually creates the inverse of the Matrix (if it has not been created before) and 
 ## makes a permanent copy so it does not have to be re-caculated each time.
-## This returns the inverse matrix (last object declared)
+## This returns the inverse matrix (last object declared) - August 22, 2014
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
